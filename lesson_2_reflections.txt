@@ -1,0 +1,4 @@
+++What happens when you initialize a repository? Why do you need to do it?
+
+.git folder is created with an empty repository and no commits.
+no files are added to it in order give us a chance to add description to the commit
