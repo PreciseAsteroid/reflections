@@ -3,8 +3,11 @@
 .git folder is created with an empty repository and no commits.
 no files are added to it in order give us a chance to add description to the commit
 
-++How can you use the staging area to make sure you have one commit per logical change?
+++How is the staging area different from the working directory and the repository?
+What value do you think it offers?
 
-by running git diff --staged I can check the difference between the repo
-and the staging area. I should make sure that only changes that relate to the
-same logical change are there.
+staging area is a subset of the pwd. as the pwd the files there are dynamic.
+they are then snapshotted when put into the repo.
+
+++How do the diagrams help you visualize the branch structure?
+they help you preceive the flow of commit and understand the concept of git
